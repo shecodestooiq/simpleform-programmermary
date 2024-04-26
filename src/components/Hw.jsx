@@ -18,11 +18,13 @@ export default function Hw() {
       lable="Name"
       value={name} 
       onChange = {e=>setName(e.target.value)}
+      required="required"
       />
        <InputField 
        lable="Email"
       value={email} 
       onChange = {e=>setEmail(e.target.value)}
+      required="required"
       />
       <TextAreaField 
       value={mesg}
