@@ -1,0 +1,37 @@
+.home{
+    background-color: #E9C149;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 10px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+}
+.home form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home input{
+    margin-bottom: 10px;
+}
+.home label{
+    color: white;
+    padding-right: 10px;
+}
+.home input[type="submit"]{
+    background-color: yellow;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+}
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #E4B21B;
+    height: 100vh;
+}
