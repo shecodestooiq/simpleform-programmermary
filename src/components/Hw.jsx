@@ -9,7 +9,9 @@ export default function Hw() {
     const [mesg ,setMesg] = useState()
     const handerSubmit= (e) => {
         e.preventDefault();
-        alert("the form has been submitted ")
+        alert(
+        `Name:${name}\n Email:${email}\n Message:${mesg}`
+      )
     }
   return (
     <div className='home'>
